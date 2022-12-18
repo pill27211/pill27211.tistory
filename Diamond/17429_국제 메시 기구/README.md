@@ -18,8 +18,10 @@ TL : 3sec, ML : 1024 MB
 
 ### 성능 요약
 
-메모리: 2020 KB, 시간: 0 ms
+메모리: 127500 KB, 시간: 1148 ms
 
 ### 분류
 
-구현(implementation), 사칙연산(arithmetic), 수학(math)
+자료구조(data_structures), 트리(trees), 세그먼트 트리(segtree), 느리게 갱신되는 세그먼트 트리(lazyprop)
+
+오일러 투어 테크닉(euler_tour_technique), heavy-light 분할(hld)
