@@ -13,7 +13,7 @@ int main()
 	for (V.push_back(a[1]), i = 2; i <= n; i++)
 	{
 		j = lower_bound(V.begin(), V.end(), a[i]) - V.begin();
-		j == V.size() ? V.push_back(a[i]), dp[i] = ++p : (V[j] = a[i], dp[i] = j);
+		j == (int)V.size() ? V.push_back(a[i]), dp[i] = ++p : (V[j] = a[i], dp[i] = j);
 	}
 	cout << p + 1 << '\n';
 	for (i = n; i; i--)
