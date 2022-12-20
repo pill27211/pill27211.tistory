@@ -14,7 +14,7 @@ TL : 3sec, ML : 1024 MB
 
 1 ≤ Q ≤ 100,000
 
-{0 || 1 } ≤ update value ≤ 10^9
+{ 0 || 1 } ≤ update value ≤ 10^9
 
 ### 성능 요약
 
