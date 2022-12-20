@@ -24,14 +24,14 @@ TL : 3sec, ML : 1024 MB
 
 자료구조(data_structures), 트리(trees), 세그먼트 트리(segtree), 느리게 갱신되는 세그먼트 트리(lazyprop)
 
-오일러 투어 테크닉(euler_tour_technique), heavy-light 분할(hld)
+오일러 투어 테크닉(euler_tour_technique), heavy-light 분할(heavy-light decomposition)
 
 
 ### comment
 
 처음 보자마자 [이 문제](https://www.acmicpc.net/problem/13925)가 생각 났다. (단지 트리 위에서 진행되기 때문에 HLD가 필요했고, 쿼리 종류도 많아 구현량이 적지 않았음)
 
-한가지 출제자의 배려(?)인지는 모르겠으나 출력에 있어서 항상 2^32로 나눈 나머지를 출력해야 한다는 것이다.
+한가지 출제자분의 배려(?)인지는 모르겠으나 출력에 있어서 항상 2^32로 나눈 나머지를 출력해야 한다는 것이다.
 
 바꿔 말하면 long long, unsigned long long 등을 사용하며 모듈러 연산에 스트레스 받을 필요 없이 역으로 unsigned int 자료형을 사용하면, 모듈러 연산을 아예 할 필요가 없게 된다.
 
