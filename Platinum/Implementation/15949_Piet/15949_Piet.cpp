@@ -7,7 +7,7 @@ using namespace std;
 int dy[] = { 0, -1, 0, 1, 0 }, dx[] = { 0, 0, 1, 0, -1 };
 vector <P> V1, V2;
 char M[105][105];
-int dp, cc, p, q, c;
+int dp, cc, p, q, f, c;
 int n, m, i, j;
 string an;
 
@@ -30,7 +30,7 @@ void find1()
 
 	while (Q.size())
 	{
-		auto[a, b] = Q.front(); Q.pop();
+		auto [a, b] = Q.front(); Q.pop();
 
 		for (i = 1; i <= 4; i++)
 		{
