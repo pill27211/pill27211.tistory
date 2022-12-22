@@ -1,5 +1,4 @@
-#include<iostream>
-#include<string>
+#include<bits/stdc++.h>
 #define r int n, int s, int e
 #define ll long long
 #define N 86400
