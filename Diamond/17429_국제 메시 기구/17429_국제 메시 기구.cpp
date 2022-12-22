@@ -12,7 +12,7 @@ int n, q, o, i, j, k;
 
 void f0()
 {
-	ios_base::sync_with_stdio(0); cin.tie(0);
+	ios_base::sync_with_stdio(0);  cin.tie(0);
 	cin >> n >> q;
 	for (; i < n - 1; i++)
 		cin >> j >> k, Gr[j].push_back(k), Gr[k].push_back(j);
