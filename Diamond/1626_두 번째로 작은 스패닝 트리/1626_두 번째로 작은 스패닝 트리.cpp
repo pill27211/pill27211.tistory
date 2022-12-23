@@ -18,7 +18,7 @@ int n, m, i, j, s, o;
 
 void f0()
 {
-	ios_base::sync_with_stdio(0); cin.tie(0);
+	ios_base::sync_with_stdio(0);cin.tie(0);
 	cin >> n >> m;
 	iota(P, P + N, 0);
 	for (i = 0; i < m; i++)
