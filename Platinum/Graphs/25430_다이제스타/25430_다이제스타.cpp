@@ -8,7 +8,7 @@ ll r = 1e18;
 
 void f()
 {
-	priority_queue <tuple<ll, int, int>> Q;
+	priority_queue <tuple<ll,int, int>> Q;
 	Q.push({ 0, 0, i });
 	while (!Q.empty())
 	{
