@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 int n, i, p[40001], dp[40001];
 int main()
