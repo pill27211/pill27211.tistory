@@ -1,7 +1,7 @@
 
 # [Gold V] 소수 화폐 - 16400
 
-[문제 링크]([https://www.acmicpc.net/problem/15949](https://www.acmicpc.net/problem/16400))
+[문제 링크](https://www.acmicpc.net/problem/16400)
 
 ### 문제 요약
 
