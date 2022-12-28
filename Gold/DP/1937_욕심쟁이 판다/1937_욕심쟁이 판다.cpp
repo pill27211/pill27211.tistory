@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 int dy[] = { -1, 1, 0, 0 }, dx[] = { 0, 0, -1, 1 };
