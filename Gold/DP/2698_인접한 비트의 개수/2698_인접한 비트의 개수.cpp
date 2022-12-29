@@ -1,5 +1,4 @@
 #include<bits/stdc++.h>
-using namespace std;
 
 long long n, i, j, dp[101][101][2];
 int main()
