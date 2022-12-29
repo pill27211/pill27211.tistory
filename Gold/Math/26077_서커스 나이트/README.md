@@ -1,7 +1,7 @@
 
 # [Gold I] 서커스 나이트 - 26077
 
-[문제 링크](https://www.acmicpc.net/problem/2565)
+[문제 링크](https://www.acmicpc.net/problem/26077)
 
 ### 문제 요약
 
