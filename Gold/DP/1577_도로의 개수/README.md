@@ -1,5 +1,5 @@
 
-# [Gold V] 도로의 개수 - [2565](https://www.acmicpc.net/problem/1577)
+# [Gold V] 도로의 개수 - 1577
 
 [문제 링크](https://www.acmicpc.net/problem/1577)
 
