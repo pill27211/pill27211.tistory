@@ -23,4 +23,4 @@ n ≤ 10,000 {2, 4, 6, ..., 10,000}
 
 ### comment
 
-[여기](https://www.acmicpc.net/problem/17268)서 다룬 것과 완전히 동일하다.
+[여기](https://github.com/pill27211/Baekjoon/tree/main/Gold/Math/17268_%EB%AF%B8%ED%8C%85%EC%9D%98%20%EC%A0%80%EC%A3%BC)서 다룬 것과 완전히 동일하다.
