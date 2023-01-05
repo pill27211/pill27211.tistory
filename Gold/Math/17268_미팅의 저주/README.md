@@ -1,5 +1,5 @@
 
-# [Gold III] 미팅의 저주 6 - 17268
+# [Gold III] 미팅의 저주 - 17268
 
 [문제 링크](https://www.acmicpc.net/problem/17268)
 
