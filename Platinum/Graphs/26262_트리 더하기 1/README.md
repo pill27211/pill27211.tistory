@@ -1,6 +1,6 @@
 # [Platinum III] 트리 더하기 1 - 26262
 
-[문제 링크](https://www.acmicpc.net/problem/15481)
+[문제 링크](https://www.acmicpc.net/problem/26262)
 
 ### 문제 요약
 
