@@ -3,8 +3,8 @@
 #define N 200001
 using namespace std;
 
-map <ll, ll> M[N];
-vector <pair<ll, ll>> Gr[N];
+map <int, int> M[N];
+vector <pair<int, int>> Gr[N];
 int C[N], G[N], Cy[N], D[N], dp[N][19];
 ll W[N], sf[N];
 ll n, q, o, i, j, w, cc, ccc;
@@ -36,8 +36,8 @@ void in()
 }
 void f1()
 {
-	queue <ll> Q;
-	ll V[N]{};
+	queue <int> Q;
+	bool V[N]{};
 	for (i = 1; i <= n; i++)
 		if (C[i] == 1)
 			Q.push(i);
@@ -107,13 +107,8 @@ int main()
 				ccc = i;
 			D[i] = 0;
 		}
-	if (!cc)
-		f2(1, 1, 0, 1);
-	else
-	{
-		f5(ccc, 0, 1);
-		i = sf[ccc]; sf[ccc] = 0; ccc = i;
-	}
+	!cc ? f2(1, 1, 0, 1) : f5(ccc, 0, 1);
+	i = sf[ccc]; sf[ccc] = 0; ccc = i;
 	f3();
 	cin >> q;
 	while (q--)
@@ -126,9 +121,9 @@ int main()
 			ll s = W[i] + W[j];
 			i = G[i], j = G[j];
 			if (D[i] < D[j]) swap(i, j);
-			ll temp = sf[i] - sf[j];
-			temp = min(temp, ccc - temp);
-			cout << s + temp << '\n';
+			ll t = sf[i] - sf[j];
+			t = min(t, ccc - t);
+			cout << s + t << '\n';
 		}
 	}
 }
