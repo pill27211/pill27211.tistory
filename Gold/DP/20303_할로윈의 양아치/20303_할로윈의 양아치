@@ -1,0 +1,40 @@
+#include<bits/stdc++.h>
+#define N 30001
+using namespace std;
+
+vector <pair<int, int>> V;
+int P[N], C[N], S[N], dp[N];
+int n, m, k, i, j;
+
+int f1(int p) { return P[p] = P[p] == p ? p : f1(P[p]); }
+void f2(int p, int q)
+{
+	p = f1(p), q = f1(q);
+	if (p ^ q)
+		p > q ? (P[p] = q, C[q] += C[p], S[q] += S[p]) : (P[q] = p, C[p] += C[q], S[p] += S[q]);
+}
+void in()
+{
+	ios_base::sync_with_stdio(0); cin.tie(0);
+	iota(P, P + N, 0);
+	cin >> n >> m >> k; k--;
+	for (i = 1; i <= n; i++)
+		cin >> C[i], S[i]++;
+	while (m--)
+		cin >> i >> j, f2(i, j);
+}
+void sv()
+{
+	for (i = 1; i <= n; i++)
+		if (P[f1(i)])
+			V.push_back({ S[f1(i)], C[f1(i)] }), P[f1(i)] = 0;
+	for (auto& a : V)
+		for (i = k; i >= a.first; i--)
+			dp[i] = max(dp[i], dp[i - a.first] + a.second);
+	cout << dp[k];
+}
+int main()
+{
+	in();
+	sv();
+}
