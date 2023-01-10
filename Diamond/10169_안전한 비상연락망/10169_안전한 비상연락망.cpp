@@ -27,8 +27,7 @@ void in()
 		if (Eg[i].V1 > Eg[i].V2)
 			swap(Eg[i].V1, Eg[i].V2);
 	}
-	memcpy(cEg, Eg, sizeof Eg);
-	sort(Eg, Eg + m);
+	memcpy(cEg, Eg, sizeof Eg), sort(Eg, Eg + m);
 }
 int f1(int p) { return P[p] = P[p] == p ? p : f1(P[p]); }
 void f2()
@@ -36,7 +35,6 @@ void f2()
 	for (i = 0; i < m; i++)
 	{
 		int p = f1(Eg[i].V1), q = f1(Eg[i].V2);
-
 		if (p == q)
 		{
 			nEg.push_back(Eg[i]);
@@ -107,7 +105,7 @@ void f7()
 		while (q ^ l)
 		{
 			i = dp[q][0], P[q] = l;
-			f6(q, i, a.W);	
+			f6(q, i, a.W);
 			q = f1(i);
 		}
 	}
