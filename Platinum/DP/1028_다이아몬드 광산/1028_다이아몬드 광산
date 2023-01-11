@@ -8,12 +8,12 @@ int main()
 {
 	cin >> r >> c;
 	for (i = 1; i <= r; i++)
-        for (j = 1; j <= c; j++)
-        {
-            scanf("%1d", &M[i][j]);
-            if (M[i][j])
-                dp[i][j][0] = dp[i - 1][j + 1][0] + 1, dp[i][j][1] = dp[i - 1][j - 1][1] + 1;
-        }
+            for (j = 1; j <= c; j++)
+            {
+                scanf("%1d", &M[i][j]);
+                if (M[i][j])
+                    dp[i][j][0] = dp[i - 1][j + 1][0] + 1, dp[i][j][1] = dp[i - 1][j - 1][1] + 1;
+            }
     for (i = r; i; i--)
         for (j = 1; j <= c; j++)
             if (M[i][j])
