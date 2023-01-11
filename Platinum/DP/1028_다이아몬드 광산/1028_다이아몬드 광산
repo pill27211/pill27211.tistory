@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int M[751][751], dp[751][751][4];
+int r, c, i, j, an;
+
+int main()
+{
+	cin >> r >> c;
+	for (i = 1; i <= r; i++)
+        for (j = 1; j <= c; j++)
+        {
+            scanf("%1d", &M[i][j]);
+            if (M[i][j])
+                dp[i][j][0] = dp[i - 1][j + 1][0] + 1, dp[i][j][1] = dp[i - 1][j - 1][1] + 1;
+        }
+    for (i = r; i; i--)
+        for (j = 1; j <= c; j++)
+            if (M[i][j])
+                dp[i][j][2] = dp[i + 1][j + 1][2] + 1, dp[i][j][3] = dp[i + 1][j - 1][3] + 1;
+    for (i = 1; i <= r; i++)
+        for (j = 1; j <= c; j++)
+            for (int k = min(dp[i][j][3], dp[i][j][2]); k; k--)
+            {
+                int t = i + 2 * (k - 1);
+                if (t <= r && dp[t][j][0] >= k && dp[t][j][1] >= k)
+                    an = max(an, k);
+            }
+    cout << an;
+}
