@@ -2,7 +2,7 @@
 #define N 10001
 using namespace std;
 
-vector <int> Gr[N], G[N];
+vector <int> Gr[N];
 int n, c, i, j, k, C[N], dp[N][15];
 
 int f(int p, int q, int x)
