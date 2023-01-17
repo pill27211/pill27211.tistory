@@ -29,6 +29,6 @@ TL : 1sec, ML : 512 MB
 
 i번째 사람이 i번째 일을 할 때, i + 1번째 일을 할 때, ... 로 분기해가며 최댓값을 찾아주면 된다.
 
-비트dp에 관해선 [여기](https://github.com/pill27211/Baekjoon/blob/main/Gold/DP/2098_%EC%99%B8%ED%8C%90%EC%9B%90%20%EC%88%9C%ED%9A%8C/README.md)에서 tsp를 다루며
+비트dp에 관해선 [여기](https://github.com/pill27211/Baekjoon/blob/main/Gold/DP/2098_%EC%99%B8%ED%8C%90%EC%9B%90%20%EC%88%9C%ED%9A%8C/README.md)에서 tsp를 다루며 설명 했었다.
 
-설명했으므로 여기선 딱히 설명해야할 부분은 없어 보인다.
+여기선 딱히 추가로 설명해야 할 부분은 없어 보인다.
