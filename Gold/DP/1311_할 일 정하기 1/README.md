@@ -1,5 +1,5 @@
 
-# [Gold I] 그림 교환 - 1311
+# [Gold I] 할 일 정하기 1 - 1311
 
 [문제 링크](https://www.acmicpc.net/problem/1311)
 
