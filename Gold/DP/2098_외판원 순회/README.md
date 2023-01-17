@@ -23,7 +23,7 @@ TL : 1sec, ML : 128 MB
 
 ### 분류
 
-다이나믹 프로그래밍(dp), 비트마스킹(bitmask), 비트필드를 이용한 다이나믹 프로그래밍(dp_bitfield)
+다이나믹 프로그래밍(dp), 비트마스킹(bitmask), 비트필드를 이용한 다이나믹 프로그래밍(dp_bitfield), 외판원 순회 문제(tsp)
 
 ### comment
 
