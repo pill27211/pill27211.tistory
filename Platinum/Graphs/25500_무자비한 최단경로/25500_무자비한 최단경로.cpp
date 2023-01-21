@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 #define pb push_back
 #define N 400001
 using namespace std;
