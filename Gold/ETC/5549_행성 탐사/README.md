@@ -1,7 +1,7 @@
 
-# [Gold IV] 최소 스패닝 트리 - 1197
+# [Gold V] 행성 탐사 - 5549
 
-[문제 링크](https://www.acmicpc.net/problem/1197)
+[문제 링크](https://www.acmicpc.net/problem/5549)
 
 ### 문제 요약
 
