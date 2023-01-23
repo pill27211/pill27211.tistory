@@ -61,6 +61,6 @@ dp[i][j] : i - 1행의 배치가 j로 표현될 때 최대로 배치할 수 있�
 
 boj 채점 컴파일러의 베이스가 gcc라서 지원된 듯..
 
-하지만 찾아보니 c++20 의 [<bit>](https://en.cppreference.com/w/cpp/header/bit) 헤더에서 비트 연산 관련 함수들을 지원해준다고 한다. (위의 함수는 popcount()라는 함수로 대체할 수 있다)
+하지만 찾아보니 c++20 의 [bit](https://en.cppreference.com/w/cpp/header/bit) 헤더에서 비트 연산 관련 함수들을 지원해준다고 한다. (위의 함수는 popcount()라는 함수로 대체할 수 있다)
   
 기억해두면 종종 써먹을 때가 생길 수도 ?
