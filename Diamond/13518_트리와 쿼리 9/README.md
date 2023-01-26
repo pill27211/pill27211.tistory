@@ -1,5 +1,5 @@
 
-# [Gold IV] 트리와 쿼리 9 - 13518
+# [Diamond IV] 트리와 쿼리 9 - 13518
 
 [문제 링크](https://www.acmicpc.net/problem/13518)
 
