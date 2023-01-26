@@ -97,7 +97,7 @@ p - q의 경로는 크게 두가지로 나뉜다. (p == LCA(p, q)) || (q == LCA(
 
 이렇게 쓰고 보니 참 간단해 보이는데.. 
 
-![image](https://user-images.githubusercontent.com/120912574/214865139-c79ff117-aabe-451a-85ea-9a5f171fb537.png)
+![image](https://user-images.githubusercontent.com/120912574/214867097-692c3261-f54a-4115-817a-b4e0abcd0704.png)
 
 AC로의 길은 꽤 험난했던 걸로...
 
