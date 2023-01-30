@@ -9,7 +9,7 @@
 
 ### 제한
 
-TL : 2sec, ML : 128 MB
+TL : 1sec, ML : 32 MB
 
 1 ≤ n, q ≤ 100,000
 
