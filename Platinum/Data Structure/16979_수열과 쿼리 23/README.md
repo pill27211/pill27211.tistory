@@ -1,5 +1,5 @@
 
-# [Platinum I] 최소 스패닝 트리 - 16979
+# [Platinum I] 수열과 쿼리 23 - 16979
 
 [문제 링크](https://www.acmicpc.net/problem/16979)
 
