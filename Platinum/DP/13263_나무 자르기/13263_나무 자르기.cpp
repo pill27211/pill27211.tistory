@@ -24,10 +24,8 @@ void sv()
 			u--;
 		}
 		ln[u++] = t;
-		ll x = a[i], j = u - 1;
-		if (x < ln[u - 1].d)
-			j = lower_bound(ln, ln + u, x) - ln - 1;
-		dp[i] = ln[j].p * x + ln[j].q;
+		ll j = lower_bound(ln, ln + u, a[i]) - ln - 1;
+		dp[i] = ln[j].p * a[i] + ln[j].q;
 	}
 	cout << dp[n - 1];
 }
