@@ -44,11 +44,7 @@ void push(L q, ll n)
 		T[n].l = T.size(), T.push_back({ -1, -1, s, m, { 0, M } });
 	push(p, T[n].l);
 }
-ll Q(ll x, ll n)
-{
-	if (!~n) return M;
-	return min(T[n].ln.f(x), Q(x, ((x << 1) <= T[n].s + T[n].e ? T[n].l : T[n].r)));
-}
+ll Q(ll x, ll n) { return !~n ? M : min(T[n].ln.f(x), Q(x, ((x << 1) <= T[n].s + T[n].e ? T[n].l : T[n].r))); }
 void sv()
 {
 	T.push_back({ -1, -1, 0, (ll)1e9, {0, M} });
