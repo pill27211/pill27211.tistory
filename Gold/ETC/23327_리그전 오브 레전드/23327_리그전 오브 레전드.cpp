@@ -11,5 +11,5 @@ int main()
 	for (i = 1; i <= n; i++)
 		cin >> a[i], a[i] += a[i - 1], b[i] = b[i - 1] + a[i - 1] * (a[i] - a[i - 1]);
 	while (q--)
-		cin >> i >> j, cout << b[j] - a[i - 1] * (a[j] - a[i - 1]) - b[i - 1] << '\n';
+		cin >> i >> j, cout << b[j] - b[i - 1] - a[i - 1] * (a[j] - a[i - 1]) << '\n';
 }
