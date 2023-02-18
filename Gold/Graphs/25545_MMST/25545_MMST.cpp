@@ -1,16 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-typedef struct E
+struct E
 {
 	int N, V1, V2, W;
 	bool operator<(struct E& e) { return W < e.W; }
-};
-
-E t, Eg[500000];
+}t, Eg[500000];
 vector <int> An;
-int P[200001];
-int n, m, i, j, c;
+int n, m, i, c, P[200001];
 
 void f0()
 {
@@ -43,8 +40,8 @@ int main()
 {
 	f0(); f3();
 	iota(P, P + 200001, 0);
-	f2(t.V1, t.V2);
-	f3(); An.push_back(t.N);
+	f2(t.V1, t.V2); f3();
+	An.push_back(t.N);
 	cout << "YES\n";
-	for (i = 0; i < (int)An.size(); cout << An[i++] << ' ');
+	for (int& i : An) cout << i << ' ';
 }
