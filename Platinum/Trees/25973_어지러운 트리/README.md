@@ -69,7 +69,7 @@ $1$의 경우
 
 $A_i = Sdp[x] + S[x] - 1 + (S[x] - 1) * (N - S[x]) + N - S[x]$
 
-$A_i = Sdp[x] + S[x] - 1 + NS[x] - S[x]^2 - N + S[x] + N - S[i]$
+$A_i = Sdp[x] + S[x] - 1 + NS[x] - S[x]^2 - N + S[x] + N - S[x]$
 
 $A_i = Sdp[x] - 1 - S[x] * (S[x] - N - 1)$
 
