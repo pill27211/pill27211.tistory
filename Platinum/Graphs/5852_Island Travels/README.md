@@ -61,7 +61,7 @@ $N$은 최대 15이므로, 비트dp를 활용한 tsp 문제로 해결할 수 있
 
 이제 남은건 tsp를 돌려보며 최소 순회를 찾아내는 것이다.
 
-문제의 상단 부분을 보면, $"Thus, she can first land on any of the islands she chooses."$ 라고 한다.
+문제의 상단 부분을 보면, $"Thus,$ $she$ $can$ $first$ $land$ $on$ $any$ $of$ $the$ $islands$ $she$ $chooses."$ 라고 한다.
 
 즉, 어디서 순회를 시작하던 상관이 없다는 것.
 
