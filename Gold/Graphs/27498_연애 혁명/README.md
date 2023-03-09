@@ -4,7 +4,7 @@
 
 ### 문제 요약
 
-<p> $Maximum Spanning Tree$ </p>
+<p> $Maximum$ $Spanning$ $Tree$ </p>
 
 ### 제한
 
