@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 #define F for (i = 1; i <= n; i++) for (j = 1; j <= m; j++)
 using namespace std;
 
