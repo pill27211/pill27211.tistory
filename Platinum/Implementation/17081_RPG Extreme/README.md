@@ -1,5 +1,5 @@
 
-# [Platinum II] 빡구현 - 17081
+# [Platinum II] RPG Extreme - 17081
 
 [문제 링크](https://www.acmicpc.net/problem/17081)
 
