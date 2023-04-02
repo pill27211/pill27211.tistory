@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 #define r int n, int s, int e
 #define ll long long
 #define N 200001
