@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 int n, k, r, a[100001];
 int i, p, q(1e9);
