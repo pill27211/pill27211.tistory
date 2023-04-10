@@ -1,4 +1,4 @@
-# [Gold I] 슬라임 키우 - 25620
+# [Gold I] 슬라임 키우기 - 25620
 
 [문제 링크](https://www.acmicpc.net/problem/25620)
 
